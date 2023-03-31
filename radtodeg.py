@@ -6,9 +6,9 @@ def rad_to_deg(rad):
     return deg
 
 def main():
-    rad = math.pi * 7 / 4
+    rad = math.pi * 7 / 4 # 7/4 pi radians
     deg = rad_to_deg(rad)
-    print(deg)
+    print(deg) # 315 degreesx
 
 if __name__ == "__main__":
     main()
